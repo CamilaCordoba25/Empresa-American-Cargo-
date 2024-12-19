@@ -1,0 +1,49 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+text-align: justify;
+color: black;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: blue;
+    display: flex; /* Usamos Flexbox para centrar vertical y horizontalmente */
+    align-items: center;
+    min-height: 100vh; /* Ocupa toda la altura de la ventana */
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+li {
+    text-align: justify;
+}
+
+.videos {
+    display: flex;
+    gap: 20px; 
+    align-items: center;
+}
+
+video {
+    border-radius: 20px; 
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+}
+
